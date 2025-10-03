@@ -14,9 +14,9 @@ console.log(car2);
 ### shorthand notations for above code
 function createCar(color,brand){
     return{
-        color,
+        color,   #removed  color:color like thid
         brand,
-        start:function(){
+        start(){   #removed function() here
             console.log("started");
         }
     };
